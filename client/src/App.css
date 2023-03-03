@@ -1,0 +1,305 @@
+.newsLoadingDiv {
+  height: 100vh;
+}
+
+.newsLoadingDiv .spin {
+  background-color: transparent;
+}
+
+.picknewsLoadingDiv .spin {
+  background-color: transparent;
+}
+
+.spin {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.spin .spinner {
+  margin: 0px;
+  position: fixed;
+  top: 45%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 3rem;
+  height: 3rem;
+}
+
+.newsCard {
+  border-bottom-right-radius: 24px !important;
+  border-top-left-radius: 24px !important;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+
+.readtitle {
+  float: right;
+}
+
+.bookIcon {
+  margin-left: 5px;
+}
+
+.imageCurve {
+  border-top-left-radius: 24px !important;
+  border-bottom-right-radius: 24px !important;
+}
+
+.newsCard img {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 6px !important;
+}
+
+.carousel-item img {
+  height: 25rem;
+  object-fit: cover;
+  border-bottom-right-radius: 24px;
+  border-top-left-radius: 24px;
+  filter: brightness(50%);
+}
+
+.newsCarousel {
+  margin-top: 2rem;
+  box-shadow: 0 0.5rem 1remrgba (0, 0, 0, 0.15) !important;
+}
+
+.newsCarouselItem {
+  cursor: pointer;
+}
+
+.authorCover {
+  background-color: black;
+  padding: 2rem;
+}
+
+.authorCover h1,
+h2,
+h3,
+h4 {
+  color: white !important;
+}
+
+.rightSeparator {
+  margin-right: 20px;
+}
+
+.editButtons {
+  margin-top: 5px;
+}
+
+.toTheRight {
+  float: right;
+}
+
+#loginform {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+#loginform h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.fullwidthbutton {
+  width: 100%;
+}
+
+/* Write */
+.write {
+  padding-top: 50px;
+}
+
+.writeImg {
+  margin-left: 150px;
+  width: 70vw;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.writeForm {
+  position: relative;
+}
+
+.writeFormGroup {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: rgb(129, 125, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.writeInput {
+  font-size: 30px;
+  border: none;
+  padding: 20px;
+  width: 70vw;
+}
+
+.writeInput::placeholder {
+  color: rgb(189, 185, 185);
+  font-weight: 400;
+}
+
+.writeInput:focus {
+  outline-style: none;
+}
+
+.writeText {
+  width: 70vw;
+  height: 100vh;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.writeSubmit {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* Single Post */
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px 150px;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #be9656;
+}
+
+.singlePostAuthor {
+  margin-left: 5px;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.trendingTitle {
+  text-align: center;
+}
+
+/* Comments */
+
+.commentsTitle {
+  color: black !important;
+}
+.comments {
+  margin-top: 5%;
+  margin-left: 20px;
+}
+
+.comment {
+  /* border: 1px solid rgba(16, 46, 46, 1); */
+  background-color: #e2e2e2;
+  border-top-left-radius: 24px !important;
+  border-bottom-right-radius: 24px !important;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 10px;
+  display: inline-block;
+}
+.comment h4,
+.comment span,
+.darker h4,
+.darker span {
+  display: inline;
+}
+
+.comment h4 {
+  color: rgb(38, 38, 38) !important;
+  font-size: 20px;
+}
+
+.comment p,
+.comment span,
+.darker p,
+.darker span {
+  color: rgb(91, 91, 91);
+}
+
+.commentName {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.commentIcons {
+  font-size: 30px;
+  cursor: pointer;
+  float: right;
+}
+
+.commentInput {
+  display: inline-block;
+  width: 100%;
+}
